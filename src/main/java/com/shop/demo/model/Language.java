@@ -1,0 +1,19 @@
+package com.shop.demo.model;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Language {
+	
+	private String name;
+    private int count;
+    private List<String> repositories;
+    
+}
